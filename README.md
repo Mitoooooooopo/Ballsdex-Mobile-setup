@@ -57,3 +57,6 @@ Run this commands one by one
 ``apk add openssl-dev``
 
 ``apk add poetry``
+Now after installing each of this packages Run This ``openrc default`` this will start the openrc service in your system then just run ``rc-service postgresql start`` to start the postgresql easily each time you enter and ``rc-service redis start`` for redis with this our second step is completed  
+
+# Step 3 Setting Up Database 
