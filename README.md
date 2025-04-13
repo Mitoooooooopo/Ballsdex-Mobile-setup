@@ -10,3 +10,6 @@ This Guide Provides You step by steps details on How to Run Ballsdex DiscordBot 
 If you match this Requirements Your Ready To Go 
 
 # Step 1 Installing Termux 
+
+Termux Is Our Main Tool Here Install the latest Version of Termux directly from Here https://f-droid.org/en/packages/com.termux/ 
+
