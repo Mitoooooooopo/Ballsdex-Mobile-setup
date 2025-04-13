@@ -22,13 +22,15 @@ Once inside the panel Run this ``apk update & apk upgrade`` Once it's finished
 
 Our First Step is completed it should be straightforward and easy but if you get a question feel free to create a issue on this github 
 
-# Step 2 Installing Necessary Packages 
+# Step 2 Installing and setting up Necessary Packages 
 
 Now it's Time For us to install the Necessary packages
 
 Run this commands one by one 
 
 ``apk add Python3`` 
+
+``apk add py3-pip``
 
 ``apk add git`` 
 
@@ -41,4 +43,17 @@ Run this commands one by one
 ``apk add postgresql``
 
 ``apk add redis``
- 
+
+``apk add gcc``
+
+``apk add python3-dev``
+
+``apk add musl-dev`` 
+
+``apk add build-base``
+
+``apk add libffi-dev``
+
+``apk add openssl-dev``
+
+``apk add poetry``
