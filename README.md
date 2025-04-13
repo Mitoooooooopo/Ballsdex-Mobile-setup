@@ -12,4 +12,7 @@ If you match this Requirements Your Ready To Go
 # Step 1 Installing Termux 
 
 Termux Is Our Main Tool Here Install the latest Version of Termux directly from Here https://f-droid.org/en/packages/com.termux/ 
+Once installed Open the App once you have access to the Shell Run This ``pkg update && pkg upgrade`` 
+
+It take 1-5 minutes according to your mobile and Network Once it's Finished Run This ``pkg install proot-distro`` this install the proot 
 
