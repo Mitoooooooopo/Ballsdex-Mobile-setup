@@ -93,5 +93,9 @@ b.com/Ballsdex-Team/BallsDex-DiscordBot.git``
 then run ``cd BallsDex-DiscordBot`` 
 
 Then ``poetry install`` wait for the dependencies to be installed. 
-Once installed Run This ``poetry run python3 -m ballsdex`` this will generate a config.yml then run ``nano config.yml`` to open the file and config the bot following the official guide https://github.com/Ballsdex-Team/BallsDex-DiscordBot/wiki/Installing-Ballsdex#5-configure-the-bot 
+Once installed Run This ``poetry run python3 -m ballsdex`` this will generate a config.yml then run ``nano config.yml`` to open the file and config the bot by following the official guide https://github.com/Ballsdex-Team/BallsDex-DiscordBot/wiki/Installing-Ballsdex#5-configure-the-bot 
+
+Now our bot is ready to run Before running the bot, you must tell it about your database. Export the BALLSDEXBOT_DB_URL environment variable with the link to Postgres database and user we made earlier:
+
+``export BALLSDEXBOT_DB_URL=postgres://username:password@localhost:5432/database name``
 
