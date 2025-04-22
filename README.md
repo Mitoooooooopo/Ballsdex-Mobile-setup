@@ -85,5 +85,12 @@ Then
 With this run ``\q`` then run ``exit``  we successfully completed our database part 
 
 # installing Ballsdex
+the latest version of Ballsdex From 2.24.3 to 2.26.0 requires python3.13 witch isn't officially available at alpine Linux repositories for now yet so we will have to build it from source using pyenv but that requires more storage and it's pain to do due to that we will be only using Either 2.24.2 or 2.24.1, 2.24.0 works too 
 
-Usually we just run ``git clone https://github.com/Ballsdex-Team/BallsDex-DiscordBot.git`` But the latest version of Ballsdex From 2.24.3 to 2.26.0 requires python3.13 witch isn't officially available at alpine Linux repositories for now yet so we will have to build it from source using pyenv but that requires more storage and it's pain to do due to that we will be only using Either 2.24.2 or 2.24.1
+Run this ``git clone --branch release/2.24.2 --depth 1 https://githu
+b.com/Ballsdex-Team/BallsDex-DiscordBot.git`` 
+
+then run ``cd BallsDex-DiscordBot`` 
+
+Then ``poetry install`` wait for the dependencies to be installed. 
+Once installed Run This ``poetry run python3 -m ballsdex`` witch will generate a config.yml
