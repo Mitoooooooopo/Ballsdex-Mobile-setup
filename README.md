@@ -93,4 +93,5 @@ b.com/Ballsdex-Team/BallsDex-DiscordBot.git``
 then run ``cd BallsDex-DiscordBot`` 
 
 Then ``poetry install`` wait for the dependencies to be installed. 
-Once installed Run This ``poetry run python3 -m ballsdex`` witch will generate a config.yml
+Once installed Run This ``poetry run python3 -m ballsdex`` this will generate a config.yml then run ``nano config.yml`` to open the file and config the bot following the official guide https://github.com/Ballsdex-Team/BallsDex-DiscordBot/wiki/Installing-Ballsdex#5-configure-the-bot 
+
