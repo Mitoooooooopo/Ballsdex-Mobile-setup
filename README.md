@@ -18,9 +18,9 @@ It take 1-5 minutes depending one your mobile and Network Once it's Finished Run
 
 This command will successfully Login You to alpine Linux now you should be getting a panel like this ``localhost:~#``  
 
-Once inside the panel Run this ``apk update & apk upgrade`` Once it's finished 
+Once inside the environment Run this ``apk update & apk upgrade`` Once it's finished 
 
-Our First Step is completed it should be straightforward and easy but if you get a question feel free to create a issue on this github 
+First Step is completed it should be straightforward and easy but if you get a question feel free to create a issue on this github 
 
 # Step 2 Installing and setting up Necessary Packages 
 
@@ -60,3 +60,21 @@ Run this commands one by one
 Now after installing each of this packages Run This ``openrc default`` this will start the openrc service in your system then just run ``rc-service postgresql start`` to start the postgresql easily each time you enter and ``rc-service redis start`` for redis with this our second step is completed  
 
 # Step 3 Setting Up Database 
+Time to set database witch is necessary 
+
+Run ``su postgres``
+
+then run ``psql``
+
+This will get you into postgres panel once inside run ``CREATE USER any name WITH PASSWORD 'your password for the user';`` 
+
+This will create the user then run 
+
+``ALTER USER the exact same username you used for command above WITH SUPERUSER;`` 
+
+This will grand your user superuser then run 
+
+``CREATE DATABASE a database name make sure it dond have space;``
+
+
+
