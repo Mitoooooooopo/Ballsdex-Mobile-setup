@@ -97,5 +97,14 @@ Once installed Run This ``poetry run python3 -m ballsdex`` this will generate a 
 
 Now our bot is ready to run Before running the bot, you must tell it about your database. Export the BALLSDEXBOT_DB_URL environment variable with the link to Postgres database and user we made earlier:
 
-``export BALLSDEXBOT_DB_URL=postgres://username:password@localhost:5432/database name``
+``export BALLSDEXBOT_DB_URL=postgres://username:password@localhost:5432/database name"
+export BALLSDEXBOT_REDIS_URL="redis://127.0.0.1"`` 
+
+For example if you named your database Elon named your user Musk and set password Twitter you should export like this 
+
+``export BALLSDEXBOT_DB_URL=postgres://musk:twitter@localhost:5432/elon"
+export BALLSDEXBOT_REDIS_URL="redis://127.0.0.1"``
+
+Once exported run this again ``poetry run python3 -m ballsdex`` And Your Bot will be successful started 
+
 
