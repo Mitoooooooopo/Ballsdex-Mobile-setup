@@ -130,4 +130,5 @@ Next time when you want to start the bot just do this
 
 ``poetry run python3 -m ballsdex``
 
- ## Any Error, Confusion, Questions or need any support Feel Free to Contact me in Discord Us
+ ## Any Error, Confusion, Questions or need any support Feel Free to Contact me in Discord Username: noobdog667 
+Discord Id: 962947296683757621
