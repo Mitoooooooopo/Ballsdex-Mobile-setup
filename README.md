@@ -109,3 +109,25 @@ Once exported run this again ``poetry run python3 -m ballsdex`` And Your Bot wil
 ![IMG_20250422_140125](https://github.com/user-attachments/assets/ed18b5d9-ddb1-46d2-a2fb-c886d9042035)
 
 
+You can hit ``ctrl on termux panel and X on your keyboard to shut down the bot``
+
+# Setting Up Admin Panel 
+Run ``cd admin_panel && poetry run python3 manage.py migrate && poetry run python3 manage.py collectstatic --no-input && poetry run uvicorn admin_panel.asgi:application`` to start admin panel for first Time 
+
+Use it only once second time onwards just run ``poetry run uvicorn admin_panel.asgi:application`` to start the admin panel for detailed guide you should check 
+Official guide https://github.com/Ballsdex-Team/BallsDex-DiscordBot/wiki/Using-the-new-admin-panel 
+
+# Aftermath 
+Next time when you want to start the bot just do this 
+
+``proot-distro login alpine``
+
+``rc-service redis start``
+
+``rc-service postgresql start``
+
+``cd BallsDex-DiscordBot``
+
+``poetry run python3 -m ballsdex``
+
+ ## Any Error, Confusion, Questions or need any support Feel Free to Contact me in Discord Us
