@@ -74,7 +74,16 @@ This will create the user then run
 
 This will grand your user superuser then run 
 
-``CREATE DATABASE a database name make sure it dond have space;``
+``CREATE DATABASE a database name make sure it dond have space;`` 
 
+Then run this 
+``ALTER DATABASE your database name OWNER TO your username;`` 
+
+Then
+``GRANT ALL PRIVILEGES ON DATABASE database name TO username;``
+
+With this run ``\q`` then run ``exit``  we successfully completed our database part 
+
+# installing Ballsdex
 
 
