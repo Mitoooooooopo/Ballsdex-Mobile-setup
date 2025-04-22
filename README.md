@@ -106,5 +106,6 @@ For example if you named your database Elon named your user Musk and set passwor
 export BALLSDEXBOT_REDIS_URL="redis://127.0.0.1"``
 
 Once exported run this again ``poetry run python3 -m ballsdex`` And Your Bot will be successful started 
+![IMG_20250422_140125](https://github.com/user-attachments/assets/ed18b5d9-ddb1-46d2-a2fb-c886d9042035)
 
 
